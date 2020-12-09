@@ -1,0 +1,257 @@
+/* ======= GLOBAL STYLES ======= */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.page {
+  font-family: var(--primary-page-font);
+  color: var(--primary-text-color);
+}
+
+.address {
+  font-style: normal;
+}
+
+/* ======= END GLOBAL STYLES ======= */
+
+/* ======= COMPONENTS ======= */
+
+/* Основной шрифт страницы font-family: 'Roboto', sans-serif; */
+/* Вторичный шрифт страницы font-family: 'Raleway', sans-serif; */
+/* Основной цвет текста #757575 */
+/* Вторичный цвет текста  #212121 */
+/* Цвет акцента #2196F3 */
+/* Белый цвет текста #FFFFFF */
+/* Черный цвет текста #000000 */
+/* Цвет текста в футере rgba(255, 255, 255, 0.6) */
+/* Основной фоновый цвет #FFFFFF */
+/* Вторичный фоновый цвет #F5F4FA */
+/* Фоновый цвет футера #2F303A */
+
+:root {
+  --primary-page-font: 'Roboto', sans-serif;
+  --secondary-page-font: 'Raleway', sans-serif;
+  --primary-text-color: #757575;
+  --secondary-text-color: #212121;
+  --accent-text-color: #2196f3;
+  --white-text-color: #ffffff;
+  --black-text-color: #000000;
+  --footer-text-color: rgba(255, 255, 255, 0.6);
+  --primary-background-color: #ffffff;
+  --secondary-background-color: #f5f4fa;
+  --footer-backgaround-color: #2f303a;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.logo {
+  font-family: var(--secondary-page-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
+  color: var(--accent-text-color);
+}
+
+.logo-header {
+  color: var(--black-text-color);
+}
+
+.logo-footer {
+  color: var(--white-text-color);
+}
+
+.title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.167;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+}
+
+/* ======= END COMPONENTS ======= */
+
+/* ======= HEADER ======= */
+
+.navigation-list-link,
+.header-mail,
+.header-tel {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
+
+.navigation-list-link {
+  color: var(--secondary-text-color);
+}
+
+.navigation-list-link:hover,
+.navigation-list-link:focus,
+.header-mail:hover,
+.header-mail:focus,
+.header-tel:hover,
+.header-tel:focus,
+.current {
+  color: var(--accent-text-color);
+}
+
+/* ======= END HEADER ======= */
+
+/* ======= FOOTER ======= */
+
+.footer {
+  background-color: var(--footer-backgaround-color);
+}
+
+.contact-list {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+}
+
+.footer-addres {
+  color: var(--white-text-color);
+}
+
+.footer-mail,
+.footer-tel {
+  color: var(--footer-text-color);
+}
+
+/* ======= END FOOTER ======= */
+
+/* !!!!!!!!!! INDEX.HTML !!!!!!!!!! */
+
+/* ======= HERO ======= */
+
+.hero {
+  background-color: #2f303a;
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.364;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--white-text-color);
+}
+
+.modal-button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.06em;
+  color: var(--white-text-color);
+  background-color: var(--accent-text-color);
+}
+
+/* ======= END HERO ======= */
+
+/* ======= ADVANTEGES ======= */
+
+.advanteges-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--secondary-text-color);
+}
+
+.advanteges-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+}
+
+/* ======= END ADVANTEGES ======= */
+
+/* ======= PRODUCT ======= */
+
+/* ======= END PRODUCT ======= */
+
+/* ======= TEAM ======= */
+
+.team {
+  font-size: 16px;
+  line-height: 1.188;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.team-list-name {
+  font-weight: 500;
+  color: var(--secondary-text-color);
+}
+
+.team-list-posistion {
+  font-weight: 400;
+}
+
+/* ======= END TEAM ======= */
+
+/* !!!!!!!!!! PORTFOLIO.HTML !!!!!!!!!! */
+
+/* ======= BUTTON ======= */
+
+.button-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+}
+
+.button-btn:hover,
+.button-btn:focus,
+.button-btn.current {
+  background-color: var(--accent-text-color);
+  color: var(--white-text-color);
+}
+
+/* ======= END BUTTON ======= */
+
+/* ======= PROJECTS ======= */
+
+.projects-name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--secondary-text-color);
+}
+
+.projects-category {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+
+/* ======= END PROJECTS ======= */
