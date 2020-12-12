@@ -1,5 +1,9 @@
 /* ======= GLOBAL STYLES ======= */
 
+* {
+  /* outline: 1px solid red; */
+}
+
 h1,
 h2,
 h3,
@@ -199,9 +203,9 @@ img {
 /* ======= FOOTER ======= */
 
 .footer {
+  padding: 50px 0 60px;
   display: flex;
   align-items: center;
-  min-height: 252px;
   background-color: var(--footer-backgaround-color);
 }
 
@@ -231,8 +235,8 @@ img {
 .footer-address,
 .footer-mail,
 .footer-tel {
-  padding-top: 4px;
-  padding-bottom: 4px;
+  padding-top: 5px;
+  padding-bottom: 5px;
   color: var(--footer-text-color);
 }
 
@@ -393,8 +397,7 @@ img {
 }
 
 .filter-btn:hover,
-.filter-btn:focus,
-.filter-btn.current {
+.filter-btn:focus {
   background-color: var(--accent-text-color);
   color: var(--white-text-color);
 }
